@@ -10,7 +10,6 @@
 		AAB0194029574E6300E4939D /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = AAB0193F29574E6300E4939D /* main.c */; };
 		AAB019482957501B00E4939D /* GStreamer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAB019472957501B00E4939D /* GStreamer.framework */; };
 		AAB019492957501B00E4939D /* GStreamer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AAB019472957501B00E4939D /* GStreamer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AAB0195029585C5700E4939D /* basic-tutorial-2.c in Sources */ = {isa = PBXBuildFile; fileRef = AAB0194F29585C5700E4939D /* basic-tutorial-2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,8 +39,6 @@
 		AAB0193C29574E6300E4939D /* gsreamer-basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "gsreamer-basic"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB0193F29574E6300E4939D /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		AAB019472957501B00E4939D /* GStreamer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GStreamer.framework; path = ../../../../Library/Frameworks/GStreamer.framework; sourceTree = "<group>"; };
-		AAB0194E29585C5700E4939D /* basic-tutorial-2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "basic-tutorial-2.h"; sourceTree = "<group>"; };
-		AAB0194F29585C5700E4939D /* basic-tutorial-2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = "basic-tutorial-2.c"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +56,6 @@
 		AAB0193329574E6300E4939D = {
 			isa = PBXGroup;
 			children = (
-				AAB0194E29585C5700E4939D /* basic-tutorial-2.h */,
-				AAB0194F29585C5700E4939D /* basic-tutorial-2.c */,
 				AAB0193E29574E6300E4939D /* gsreamer-basic */,
 				AAB0193D29574E6300E4939D /* Products */,
 				AAB019462957501B00E4939D /* Frameworks */,
@@ -150,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAB0194029574E6300E4939D /* main.c in Sources */,
-				AAB0195029585C5700E4939D /* basic-tutorial-2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
